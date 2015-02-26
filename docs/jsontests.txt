@@ -2,3 +2,16 @@
 	"test":"test",
 	"key":"value"
 }
+
+{
+	"query":{
+	  "query_string":{
+	     "query":"dark","fields":["title"]
+	     }
+	   }
+}
+
+XGET - retrieve a doc
+XPOST - creat a doc and /_search
+XPUT - overwrite a doc
+XDELETE - delete a doc
